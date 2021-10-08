@@ -1,0 +1,52 @@
+.homePage {
+    height: 87vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .loginMessage {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loginMessage > h2 {
+    font-size: 80px;
+    margin: 0;
+  }
+  
+  .loginMessage > h1 {
+    font-size: 80px;
+    width: 80%;
+    line-height: 1em;
+    margin: 10px auto;
+    margin-top: 0;
+    font-weight: 700;
+    letter-spacing: -4px;
+    color: rgb(17, 17, 17);
+    text-decoration: underline;
+  }
+  
+  .loginMessage > p {
+    padding: 15px 0;
+    line-height: 1.5em;
+    width: 50%;
+    margin: auto;
+    font-size: 16px;
+  }
+  
+  .loginButton {
+    width: 300px;
+    margin: 15px auto 0px auto;
+    padding: 15px 0;
+    border: none;
+    background: rgb(17, 17, 17);
+    font-family: "Inter";
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+  }
